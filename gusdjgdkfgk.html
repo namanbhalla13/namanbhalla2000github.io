@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+<head>
+	<!-- AUTHOR NAME-NAMAN BHALLA
+		DATE-15-FEBUARY-2019
+		OBJECTIVE-FORM STYLING-->
+	<title>feedback form</title>
+</head>
+<body>
+	<h1><center>VISITOR FEEDBACK FORM</center></h1>
+	<b><i>Hi,<br>
+	This is Naman bhalla,<br>
+	I wish you help me give  a proper feedback what you feel when you are in my hospital and how my staff treat you.<br>
+	Thank You.<br></i></b>
+	<h3> FORM START</h3>
+	<form action="">
+		<fieldset>
+			<legend>PERSONAL INFORMATION</legend>
+				<label for="first_name">First Name:</label>
+				<input type="text" name="first_name" width=100><br>
+				<label for="middle_name">Middle Name:</label><input type="text" name="middle_name"><br>
+				<label for="last_name">Last Name:</label><input type="text" name="last_name"><br>
+				<label for="pateintname">Pateint Name:</label><input type="text" name="pateintname"><br>
+				<label for="place">Place:</label><input type="text" name="place"><br>
+				<label for="dob">Date Of Birth:</label><input type="date" name="dob"><br>
+				<label for="email">Email:</label><input type="email" name="email"><br>
+				<label for="numbers">Contact Number:</label><input type="number" name="numbers">
+		</fieldset>
+		<fieldset>
+			<legend>INFORMATION WHAT YOU THINK ABOUT Hospital</legend>
+			<ul>
+				
+				<li>Is  Doctor's give proper guidance,s<input type="radio" name="dylmc" value="yes" >YES <input type="radio" name="dylmc" value="no" >NO</li>
+				<li>Is Nursing staff helping you <input type="radio" name="dylmp" value="yes" >YES <input type="radio" name="dylmp" value="no" >NO </li>
+				<li>Did you like our food <input type="radio" name="dylmhp" value="yes" >YES <input type="radio" name="dylmhp" value="no" >NO </li>
+				<li>Did you happy with Phramcy Price's <input type="radio" name="iion" value="yes" >YES <input type="radio" name="iion" value="no" >NO </li>
+				<li>Rate Hospital with star's <select name="hmdylirws">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5" >5</option>
+				</select></li>
+
+
+		</fieldset>
+		
+		<fieldset>
+			<legend>ANY SUGGESTION</legend>
+			<ul>
+				<li>Want to give any sugeestion<textarea name="wtgas" rows="2" cols="20">Enter Your Text</textarea></li>
+		</fieldset>
+		<center><input type="submit" onclick="alert('REALLY WANT TO SUBMIT')" value="SUBMIT">
+		<input type="RESET" onclick="alert('WANT TO RESET')" value="RESET"></center>
+	</form>
+</body>
+</html>

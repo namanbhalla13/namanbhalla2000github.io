@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+}
+.grid{
+	display: grid;
+}
+.grid div:nth-child(even){
+	background-color: red;
+	height: 700px;
+}
+.grid div:nth-child(odd){
+	background-color: green;
+	height: 700px;
+
+}
+.bio ul li{
+					width: 200px;
+					}
